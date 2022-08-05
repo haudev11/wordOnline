@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 150vh;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  text-align: center;
+}
+.container{
+  width: 80%;
+  height: 600px;
+  /* margin-top: 40px; */
+  display: flex;
+  justify-content: space-around;
+}
+.page {
+  width: 70%;
+  min-height: 100%;
+  border: 1px solid #000;
+}
+.control {
+  width: 20%;
+  min-height: 100%;
+  border: 1px solid #000;
+}
